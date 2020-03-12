@@ -1,7 +1,7 @@
 {
-  "name": "extract-loader",
-  "version": "3.1.0",
-  "description": "webpack loader to extract HTML and CSS from the bundle",
+  "name": "extract-loader-with-js",
+  "version": "5.0.1",
+  "description": "webpack loader to extract HTML,CSS and JS files from the bundle",
   "main": "lib/extractLoader.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peerigon/extract-loader.git"
+    "url": "git+https://github.com/deek87/extract-loader-with-js.git"
   },
   "keywords": [
     "webpack",
@@ -21,7 +21,10 @@
     "html",
     "css"
   ],
-  "author": "peerigon <developers@peerigon.com>",
+  "contributers": [
+    "Derek Cameron <info@derekcameron.com",
+    "peerigon <developers@peerigon.com>"
+  ],
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/peerigon/extract-loader/issues"
@@ -31,10 +34,10 @@
     "node": ">= 6.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/register": "^7.8.6",
     "babel-plugin-istanbul": "^5.0.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-register": "^6.26.0",
     "chai": "^4.1.0",
     "chai-fs": "^2.0.0",
     "cross-env": "^5.2.0",
@@ -52,10 +55,10 @@
     "webpack-command": "^0.4.1"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
     "babel-plugin-add-module-exports": "^1.0.2",
-    "babel-preset-env": "^1.7.0",
-    "babel-runtime": "^6.26.0",
     "btoa": "^1.2.1",
     "loader-utils": "^1.1.0",
     "resolve": "^1.8.1"
