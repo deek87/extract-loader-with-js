@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.3"></a>
+## [5.0.3](https://github.com/deek87/extract-loader-with-js/compare/v5.0.1...v5.0.3) (2020-03-12)
+
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/peerigon/extract-loader/compare/v3.0.0...v3.1.0) (2018-11-26)
 
